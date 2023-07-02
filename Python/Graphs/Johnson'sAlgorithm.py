@@ -81,8 +81,8 @@ class Graph:
 
 num=int(input("Enter the number of vertices you want:"))
 graph = Graph(num)
-
-for i in range(1,num+1):
+num1=int(input("Enter the number of edges you want :")
+for i in range(1,num1+1):
   print("Enter source , destination , weight:")
   s,d,w=map(int,input().split())
   graph.addEdge(s,d,w)
